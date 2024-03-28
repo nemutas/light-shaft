@@ -33,8 +33,6 @@ export class Canvas extends Three {
   private init() {
     this.scene.background = new THREE.Color('#fff')
     this.camera.position.z = 7
-
-    // this.controls.enabled = true
   }
 
   private createLight() {
@@ -68,7 +66,6 @@ export class Canvas extends Three {
       fragmentShader: modelFs,
       glslVersion: '300 es',
     })
-    // const material = new THREE.MeshNormalMaterial()
     const mesh = new THREE.Mesh(geometry, material)
     mesh.position.y += 0.5
     this.scene.add(mesh)
@@ -113,8 +110,8 @@ export class Canvas extends Three {
     this.updateTime()
 
     this.model.rotation.x += this.time.delta * 0.5
-    this.model.rotation.y += this.time.delta * 0.5
-    this.model.rotation.z += this.time.delta * 0.5
+    this.model.rotation.y += this.time.delta * 0.3
+    this.model.rotation.z += this.time.delta * 0.1
 
     this.light.render(this.scene)
 
