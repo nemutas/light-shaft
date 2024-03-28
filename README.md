@@ -2,4 +2,4 @@
 
 https://nemutas.github.io/light-shaft/
 
-<img src='https://github.com/nemutas/light-shaft/assets/46724121/0f1c4cb3-3bf6-4e4d-9547-c66412fc0cb7' alt='' width='700' />
+<img src='https://github.com/nemutas/light-shaft/assets/46724121/d40bce53-f8ef-437a-ba0d-d5d4079e58ad' alt='' width='700' />
