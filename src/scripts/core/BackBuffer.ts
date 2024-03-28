@@ -1,3 +1,4 @@
+import * as THREE from 'three'
 import { FrameBuffer, Options } from './FrameBuffer'
 
 export abstract class BackBuffer extends FrameBuffer {
