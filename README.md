@@ -1,4 +1,5 @@
 # About
+GBufferを使用したLightShaft表現
 
 https://nemutas.github.io/light-shaft/
 
